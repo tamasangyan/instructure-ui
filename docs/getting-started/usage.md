@@ -88,6 +88,22 @@ These files are designed to be used as context for AI coding agents.
 Additionally, an `llms.txt` file is available. This file contains a catalog of links pointing to the online markdown files for InstUI components and guides, which are also accessible to AI agents. It can be found at:
 https://instructure.design/llms.txt
 
+## AI Assistant Skill
+
+This repository ships an agent skill at `skills/using-instui`, installable with the [`skills` CLI](https://github.com/vercel-labs/skills).
+
+Install:
+
+```bash
+npx skills add tamasangyan/instructure-ui --skill using-instui
+```
+
+Install globally instead of per-project:
+
+```bash
+npx skills add tamasangyan/instructure-ui --skill using-instui --global
+```
+
 ## Further reading
 
 - To use a different theme or customize one read about [Using theme overrides](using-theme-overrides)
